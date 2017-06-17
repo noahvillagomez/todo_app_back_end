@@ -15,7 +15,7 @@
  */
 
     body {
-        background-color: #73dfff;
+        background-color: #00b8ff;
     }
     ul{
         width: 75%;
@@ -32,7 +32,7 @@
         text-align: center;
     }
     h3{
-        text-align: right
+        text-align: left;
     }
     li{
         color: black;
@@ -53,14 +53,14 @@
         background-color: #48D09B;
         margin: 20px 30px 20px 30px;
         border-radius: 3px;
-        box-shadow: 2px 2px 1px #73dfff;
+        box-shadow: 2px 2px 1px #00b8ff;
         padding: 5px;
     }
     #deletebutton{
         background-color: #fb6767;
         margin: 30px 30px 30px 30px;
         border-radius: 3px;
-        box-shadow: 2px 2px 1px #73dfff;
+        box-shadow: 2px 2px 1px #00b8ff;
         padding: 5px;
     }
     #gobackbutton{

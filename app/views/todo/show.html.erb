@@ -1,6 +1,7 @@
-        <input type="checkbox"/>
-        <h3><%= @todo_pomodoro_estimate %> Pomodoro</h3>
-        <div><%= @todo_description %></div>
-        <a id="editbutton" href="">Edit</a>
-        <a id="deletebutton" href="">Delete</a>
-        <div id="gobackbutton"><a class="editbutton" href="index.html">Go Back</a></div>
+<input type="checkbox"/>
+<h2><%= params[:id]%></h2>
+<h3><%= @todo_pomodoro_estimate %> Pomodoro</h3>
+<div><%= @todo_description %></div>
+<a id="editbutton" href="">Edit</a>
+<a id="deletebutton" href="">Delete</a>
+<div id="gobackbutton"><a class="editbutton" href="index.html">Go Back</a></div>
