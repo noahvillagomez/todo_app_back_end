@@ -53,14 +53,14 @@
         background-color: #48D09B;
         margin: 20px 30px 20px 30px;
         border-radius: 3px;
-        box-shadow: 2px 2px 1px #D3D3D3;
+        box-shadow: 2px 2px 1px #73dfff;
         padding: 5px;
     }
     #deletebutton{
         background-color: #fb6767;
-        margin: 20px 30px 20px 30px;
+        margin: 30px 30px 30px 30px;
         border-radius: 3px;
-        box-shadow: 2px 2px 1px #D3D3D3;
+        box-shadow: 2px 2px 1px #73dfff;
         padding: 5px;
     }
     #gobackbutton{
