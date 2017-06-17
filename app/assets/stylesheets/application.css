@@ -42,7 +42,7 @@
         margin: 30px 30px 30px 30px;
         border-radius: 3px;
         box-shadow: 2px 2px 1px #00b8ff;
-        padding: 5px;
+        padding: 10px;
         font-family: arial;
     }
     #deletebutton{
@@ -50,7 +50,7 @@
         margin: 30px 30px 30px 30px;
         border-radius: 3px;
         box-shadow: 2px 2px 1px #00b8ff;
-        padding: 5px;
+        padding: 10px;
         font-family: arial;
     }
     #gobackbutton{
@@ -60,7 +60,7 @@
         text-decoration: line-through;
     }
     #tododescription{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-family: arial;
     }

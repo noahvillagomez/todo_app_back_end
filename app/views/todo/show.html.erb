@@ -1,7 +1,14 @@
-<input type="checkbox"/>
 <h2><%= params[:id]%></h2>
-<h3 id="todoest"><%= @todo_pomodoro_estimate %> Pomodoro</h3>
-<div id="tododescript"><%= @todo_description %></div>
-<a id="editbutton" href="">Edit</a>
-<a id="deletebutton" href="">Delete</a>
-<div id="gobackbutton"><a class="editbutton" href="/todo/index">Go Back</a></div>
+<div>
+    <h3 id="todoestimate">
+        <%= @todo_pomodoro_estimate %> Pomodoro
+    </h3>
+</div>
+<div id="tododescription">
+    <%= @todo_description %>
+    <a id="editbutton" href="">Edit</a>
+    <a id="deletebutton" href="">Delete</a>
+</div>
+<div id="gobackbutton">
+    <a class="editbutton" href="/todo/index">Go Back</a>
+</div>
