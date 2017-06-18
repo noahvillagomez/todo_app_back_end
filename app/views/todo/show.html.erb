@@ -6,7 +6,7 @@
 </div>
 <div id="tododescription">
     <%= @todo.description %>
-    <a id="editbutton" href="">Edit</a>
+    <a id="editbutton" href="/todo/edit/<%= @todo.id%>">Edit</a>
     <a id="deletebutton" href="">Delete</a>
 </div>
 <div id="gobackbutton">
